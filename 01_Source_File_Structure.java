@@ -10,8 +10,7 @@
  
  * More than one public class is not allowed because public means outside person can access, So to the outside person only one  class can be exhibited (accessed).
 
- * Many people think that the class which have the main method, that class name will the name of the program but there is no relation between the proram name and the Main() function. If there are multiple classed than multiple classed can hava Main function and we can use any name for the program if there is no public class in the program. 
- 
+ * Many people think that the class which have the main method, that class name will the name of the program but there is no relation between the proram name and the Main() function. If there are multiple classes than multiple classes can hava Main function and we can use any name for the program if there is no public class in the program. 
 */
 
 class A{

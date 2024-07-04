@@ -9,7 +9,7 @@ Class leve modifier
     --> When a class is not public it is default class. Default class can only be accessed within a package only.
 
 (2) Object Creation :-
-    --> If a class is abstract object creation is not possible, and if a class is not abstract happily you are allowed to create objects.
+    --> If a class is abstract, object creation is not possible, and if a class is not abstract happily you are allowed to create objects.
      
 (3) Child Class Creation :- 
     --> if the class is final child class creation is not possible, and vice versa
@@ -26,5 +26,5 @@ Which modifiers are applicable to inner class
     (6) Private
     (7) Protected
     (8) Static
-    --> This modifiers are only applicable for inner classes
+    Note: --> This modifiers are only applicable for inner classes
  */

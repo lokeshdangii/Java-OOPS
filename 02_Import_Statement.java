@@ -35,7 +35,7 @@ class Test{
     java.util.ArrayList l = new java.util.ArrayList<>();   // will work fine
     ArrayList list = new ArrayList<>();
 
-    // Did not require any import statement
+    // Lang packages --> Did not require any import statement
     String s = new String("Lokesh");
     Thread t = new Thread();
     Exception e = new Exception();
@@ -44,13 +44,16 @@ class Test{
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.call();
+
+        Library R1 = new Library();
+        R1.openingTime();
     }
 }
 
 /*  
 Important point : 
     Whenever we are importing a package all classes and interfaces present in the that package are available but not the subpackage classes.
-    If you want to use any class present inside subpackage  compulsory we have to write import statement subpackage level
+    If you want to use any class present inside subpackage  compulsory we have to write import statement upto subpackage level
 
     java
     |
@@ -60,7 +63,7 @@ Important point :
             |
             |__Pattern
 
-            Ques : To use patter package which will be the valid option : 
+            Ques : To use pattern package which will be the valid option : 
 
             (1) import java.*
             (2) import java.util*;
