@@ -22,7 +22,7 @@
         }
     }
 
-    Althoug the above methods are not abstract but the enduser in not aware of how balance is accessed and updated, enduser is unaware of internal implementation, So we can say the above component i.e Account is following abstraction and is a encapsulated component.
+    Althoug the above methods are not abstract but the end user in not aware of how balance is accessed and updated, enduser is unaware of internal implementation, So we can say the above component i.e Account is following abstraction and is a encapsulated component.
 
     Hiding data behind method is the concept of Encapsulation.
 

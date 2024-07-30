@@ -4,12 +4,12 @@
     If a class is not completed due to some reason or the body(implementation) is not appropriate, then this partially implemented classes are declare as abstract.
     If we feel implementation is not appropriate, then happily we can declare class as abstract.
 
-    If the class implementation is not proper, inappropriate then the object creation is not allowed. That's why we can create a object of the abstract class. 
+    If the class implementation is not proper, inappropriate then the object creation is not allowed. That's why we can't create a object of the abstract class. 
 
     Instantiation of an abstract class is not possible.
 
 
-    If a class contains atleast one abstract method, then compulsorily the class must be declare as abstract because if a class have abstact method it means the class is completely implemented, and if the class is not delcared absract then a user can create a object and can call that abstact method which doesn't contain any implementation.
+    If a class contains atleast one abstract method, then compulsorily the class must be declare as abstract because if a class have abstact method it means the class is not completely implemented, and if the class is not delcared absract then a user can create a object and can call that abstact method which doesn't contain any implementation.
 
     Abstract class may contation zero or many abstract methods.
     Eventhou if a class doesnot contain any abstract method then also we can declare it abstract if we feel implementation is not appropriate or incompleted.
